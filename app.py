@@ -8,9 +8,9 @@ from PIL import Image
 import streamlit as st
 
 # TensorFlow / Keras imports
-from tensorflow.keras.applications.resnet50 import ResNet50, preprocess_input
-from tensorflow.keras.preprocessing.image import img_to_array
-
+from tensorflow.keras.applications import ResNet50
+from tensorflow.keras.applications.resnet50 import preprocess_input
+from tensorflow.keras.preprocessing.image import load_img, img_to_array
 
 # App config
 st.set_page_config(page_title="Cassava Disease — Hybrid CNN+RF", layout="wide",
