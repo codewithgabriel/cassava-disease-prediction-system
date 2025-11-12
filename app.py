@@ -202,7 +202,7 @@ with col1:
                                 st.write("Error loading image:", e)
         if not df.empty:
             st.subheader("Last prediction probabilities")
-            st.write(df.head(5), use_container_width=True, height=600)
+            st.write(df.head(5), height=600)
             
             
             # plot pie chart
