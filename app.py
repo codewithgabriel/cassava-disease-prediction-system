@@ -99,7 +99,7 @@ st.sidebar.markdown("Quick tips:\n- Use clear images with leaf centered.\n- Pref
 
 # Main layout
 
-st.title("Cassava Disease Detection System 🌱")
+st.title("Cassava Disease Detection System")
 col1, col2 = st.columns([2, 1])
 
 with col1:
